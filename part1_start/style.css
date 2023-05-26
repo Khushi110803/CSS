@@ -1,0 +1,50 @@
+/*Simple Selector*/
+.wrapper   
+{
+    text-align: center;
+    font-size: 20px;
+    background-color: beige;
+}
+h1
+{
+    font-size: 70px;
+    background-color: darksalmon;
+}
+/*Child Selector*/
+section> img
+{
+    width: 250px;
+    height:250px;
+    background-color: antiquewhite;
+}
+img:hover
+{
+    transition:0.3s;
+}
+/*Grouping Selector*/
+p,h3
+{
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+}
+/*Pseudo Class element selector*/
+p:hover
+{
+    color: darkgrey;
+}
+main h3 
+{
+    background-color: bisque;
+}
+main ul li
+{
+    list-style: inside;
+    background-color:rgb(177, 73, 73);
+}
+/*nth child of selector*/
+li:nth-child(odd)
+{
+    background-color:rgb(240, 141, 141);
+    font-weight: bold;
+}

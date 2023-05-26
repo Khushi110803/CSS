@@ -1,0 +1,134 @@
+/* Typography */ 
+
+html {
+    font-family: 'Fira Sans', sans-serif; 
+    scroll-behavior: smooth;
+    background-color: cornsilk;
+}
+
+h1, h2, h3 {
+    font-weight: 600; 
+}
+
+p {
+    font-weight: 300; 
+    line-height: 18px; 
+}
+
+
+/* Layout */ 
+
+.wrapper {
+    width: 80%; 
+    margin: 0 auto; 
+}
+
+.flex {
+    display:flex;
+    gap: 32px;  
+}
+
+#features > div {
+    flex: 1; 
+}
+
+img {
+    max-height: 300px; 
+    width: auto; 
+}
+
+main section {
+    padding: 60px 20px 0 20px; 
+}
+
+
+body div header
+{
+  
+    color:darkred;
+    text-align: center;
+}
+
+/*nav style*/
+
+.wrapper nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a
+{
+    color: black;
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 3px;
+    background-color: chocolate;
+    transition: background-color 0.2s ease-out;
+
+}
+
+.flex div:nth-child(1) img
+{
+    border-style: dashed;
+    border-radius: 5px;
+}
+
+.flex div:nth-child(2)  a
+{
+    font-style: bold;
+    color:rgb(185, 168, 168);
+    background-color:rgb(145, 74, 74);
+}
+
+/*Playlist*/
+
+#playlist
+{
+    text-align: center;
+   
+    margin: 10px;
+}
+#playlist h2
+{
+    background-color:brown;
+}
+
+#playlist thead
+{
+    background-color:rgb(212, 95, 95);
+}
+#playlist table tbody tr:nth-child(odd)
+{
+    background-color:rgb(221, 170, 170)
+}
+
+/*Features*/
+
+.flex div:nth-child(1) h3
+{
+    background-color: rgb(220, 84, 10);
+}
+.flex div:nth-child(1)  ul
+{
+    background-color: rgb(221, 140, 102);
+}
+
+.flex div:nth-child(2) h3
+{
+    background-color:rgb(220, 84, 10);
+}
+.flex div:nth-child(2) ol
+{
+    background-color:rgb(221, 140, 102);
+}
+
+.flex div:nth-child(3) h3
+{
+    background-color:rgb(220, 84, 10);
+}
+.flex div:nth-child(3) table
+{
+    background-color:rgb(221, 140, 102);
+}
