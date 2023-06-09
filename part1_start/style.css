@@ -3,7 +3,15 @@
 {
     text-align: center;
     font-size: 20px;
-    background-color: beige;
+    background-image: url('./pexels-evie-shaffer-2512282.jpg');
+    background-position: center;
+    width: 96vw;
+    border: 10px solid black;
+
+}
+.wrapper header
+{
+    width: 96vw;
 }
 h1
 {
@@ -11,15 +19,18 @@ h1
     background-color: darksalmon;
 }
 /*Child Selector*/
-section> img
+section>img
 {
-    width: 250px;
+    width: 200px;
     height:250px;
-    background-color: antiquewhite;
 }
-img:hover
+section>img:hover
 {
     transition:0.3s;
+    filter: opacity(50%);
+    filter : brightness(0.4);
+    filter : grayscale(50%);
+    filter : drop-shadow(16px 16px 20px #000);
 }
 /*Grouping Selector*/
 p,h3
@@ -37,10 +48,17 @@ main h3
 {
     background-color: bisque;
 }
+main ul
+{
+    background-size: contain;
+    background-size: auto;
+}
+
 main ul li
 {
-    list-style: inside;
+    display: inline;
     background-color:rgb(177, 73, 73);
+    
 }
 /*nth child of selector*/
 li:nth-child(odd)
